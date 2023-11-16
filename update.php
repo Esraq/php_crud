@@ -22,7 +22,8 @@ include "config.php";
 
         if ($result == TRUE) {
 
-            echo "Record updated successfully.";
+           /// echo "Record updated successfully.";
+           header("Location:../php_crud/view.php");
 
         }else{
 
@@ -48,7 +49,7 @@ if (isset($_GET['id'])) {
 
             $lastname = $row['LastName'];
 
-            $email = $row['Email'];
+            $email = $row['email'];
 
             $password  = $row['password'];
 

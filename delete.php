@@ -12,7 +12,7 @@ if (isset($_GET['id'])) {
 
      if ($result == TRUE) {
 
-        echo "Record deleted successfully.";
+        header("Location:../php_crud/view.php");
 
     }else{
 

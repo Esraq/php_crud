@@ -66,7 +66,7 @@ $result = $conn->query($sql);
 
                     <td><?php echo $row['LastName']; ?></td>
 
-                    <td><?php echo $row['Email']; ?></td>
+                    <td><?php echo $row['email']; ?></td>
 
                     <td><?php echo $row['Gender']; ?></td>
 
